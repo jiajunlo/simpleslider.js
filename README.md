@@ -1,4 +1,4 @@
-slider.js
+simpleslider.js
 =========
 
 Showing the pictures succinctly. 
