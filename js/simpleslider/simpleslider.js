@@ -4,7 +4,6 @@
 **/
 
 (function(window, document) {
-	//
 
 	function SimpleSlider(config) {
 		this.id = config.id;
@@ -97,6 +96,10 @@
 			var slider_list_width = $(".slider-list").width();
 
 			var slider_interval = setInterval(sliderPic, this.speed);
+
+			if(this.dot) {
+				$(parent_id).find(".slider-dot-list .slider-dot").eq(0).addClass("slider-dot-current");
+			}
 
 			$(parent_id).find(".slider-arrow-prev").click(function() {
 				if(!$(parent_id).find(".slider-list").is(":animated")) {
