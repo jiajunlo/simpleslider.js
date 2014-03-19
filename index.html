@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Demo</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/simpleslider.css">
+	<script type="text/javascript" src="js/jquery-2.1.0.min.js"></script>
+	<script type="text/javascript" src="js/simpleslider/simpleslider.js"></script>
+</head>
+
+<body>
+	<div id="demo">
+		<h3 class="deom-title">Demo</h3>
+	</div>
+
+	<script type="text/javascript">
+		$.slider({
+			id: "demo",
+			width: 1000,
+			arrow: true,
+			dot: true,
+			folder: "images",
+			speed: 2000,
+			images: ["cf_1.jpg", "cf_2.jpg", "cf_3.jpg", "cf_4.jpg", "cf_5.jpg", "cf_6.jpg"]
+		});
+	</script>
+</body>
+</html>

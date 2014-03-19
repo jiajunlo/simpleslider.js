@@ -1,0 +1,91 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	list-style: none;;
+}
+
+.slider-container {
+	position: relative;
+	height: auto;
+	overflow: hidden;
+	text-align: center;
+}
+
+.slider-list {
+	position: relative;
+	height: auto;
+	left: 0;
+}
+
+.slider-list .slider-item {
+	display: inline;
+	float: left;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.slider-list .slider-item img {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: auto;
+}
+
+.slider-dot-list {
+	float: left;
+	position: relative;
+	left: 50%;
+	top: -20px;
+}
+
+
+.slider-dot-list .slider-dot {
+	display: block;
+	position: relative;
+	right: 50%;
+	float: left;
+	margin: 0 5px;
+	width: 10px;
+	height: 10px;
+	border-radius: 10px;
+	background-color: #000000;
+	opacity: 0.1;
+	filter:alpha(opacity=10);
+	cursor: pointer;
+}
+
+.slider-dot-list .slider-dot:hover {
+	opacity: 0.4;
+	filter:alpha(opacity=40);
+}
+
+.slider-dot-list .slider-dot-current {
+	opacity: 0.3;
+	filter:alpha(opacity=30);
+}
+
+
+
+
+.slider-arrow .slider-arrow-item {
+	clear: both;
+	display: block;
+	position: relative;
+	width: 50px;
+	height: 100px;
+	opacity: 0.3;
+	filter:alpha(opacity=30);
+	cursor: pointer;
+}
+
+.slider-arrow .slider-arrow-item:hover {
+	opacity: 0.6;
+	filter:alpha(opacity=60);
+}
