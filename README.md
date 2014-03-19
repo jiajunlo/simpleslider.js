@@ -8,7 +8,7 @@ Firstly, you should include the css and js files.
 ###
     <link rel="stylesheet" href="css/simpleslider.css">
     <script type="text/javascript" src="js/jquery-2.1.0.min.js"></script>
-	  <script type="text/javascript" src="js/simpleslider/simpleslider.js"></script>
+	<script type="text/javascript" src="js/simpleslider/simpleslider.js"></script>
 
 Then you can set the config as you like
 
