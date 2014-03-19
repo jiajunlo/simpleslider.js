@@ -26,6 +26,6 @@ Then you can set the config as you like
         }); 
     </script>
     
-Note: caz depend on the jquery 2.1, so this plugin can not support IE6-8.
+Note: cuz depend on the jquery 2.1, so this plugin can not support IE6-8.
 
-Click here to see the (Demo)[http://www.jiajunlo.com/demo/simpleslider.js]
+Click here to see the [Demo](http://www.jiajunlo.com/demo/simpleslider.js).
