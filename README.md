@@ -28,4 +28,4 @@ Then you can set the config as you like
     
 Note: cuz depending on the jquery 2.1, so this plugin can not support IE6-8.
 
-Click here to see the [Demo](http://www.jiajunlo.com/demo/simpleslider.js).
+Click here to see the [Demo](http://jiajunlo.github.io/simpleslider.js).
